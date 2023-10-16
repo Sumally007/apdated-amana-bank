@@ -26,9 +26,9 @@ body{
     align-items: center;
 }
 .nav-bar h1{
-    font-size: 32px;
+    font-size: 60px;
     color: #79162F;
-    margin-left: -20px;
+    margin-left: -100px;
 }
 
 .nav-bar .nav-links{
@@ -68,10 +68,11 @@ header{
 .header-cont{
     display: flex;
     flex-direction: column;
-    height: 75vh;
+    height: 100vh;
     justify-content: space-around;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-left: 10px;
+    margin-left: 45px;
+    padding-top: 40px;
     color: #FFFFFF;
 }
 
@@ -80,20 +81,22 @@ header{
     font-weight: 700;
     position: relative;
     top: -50px;
+    line-height: 60px;
 }
 
 .header-cont p{
     font-size: 17px;
     font-weight: 500;
     position: relative;
-    top: -150px;
+    top: -200px;
+    margin-top: 20px;
 }
 
 .header-cont .a-tag{
     font-size: 17px;
     font-weight: 500;
     position: relative;
-    top: -220px;
+    top: -320px;
 }
 
 .a-tag .btn{
@@ -112,4 +115,59 @@ header{
     background-color: rgb(33, 120, 106);
     color: #FFFFFF;
     padding: 10px 30px;
+}
+
+.a-tag img{
+    position: absolute;
+    top: -270px;
+    right: 20px;
+}
+
+header .floating-div{
+    border-radius: 10px;
+    font-size: 24px;
+    position: absolute;
+    left: 400px;
+    bottom: -320px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #464343;
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-seriftutuntu;
+}
+
+header .pictures{
+    display: flex;
+    justify-content: center;
+}
+header .pictures div{
+    margin: 40px;
+    text-align: center;
+}
+
+
+.floating-div .zakkat{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 35px;
+}
+
+.zakkat .forex{
+    padding: 20px 50px;
+    border: 2px solid #FFFFFF;
+}
+
+.zakkat a{
+    padding: 20px 50px;
+    text-decoration: none;
+    color: #79162F;
+    background-color: #FFFFFF;
+}
+
+/* section */
+section{
+    width: 100vw;
+    height: 100vh;
+    background-color: #EAD3C1;
 }
