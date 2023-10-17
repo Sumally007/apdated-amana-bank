@@ -59,6 +59,26 @@ body{
     margin-left: 10px;
 }
 
+
+@media only screen and (max-width:480px){
+    .nav-bar{
+        padding: 20px;
+        width: 100%;
+        height: 100px;
+    }
+    .nav-bar h1{
+        font-size: 20px;
+        margin-left: -30px;
+    }
+    .nav-bar .nav-links{
+        display: none;
+    }
+
+    .nav-bar .nav-log{
+        margin-right: 50px;
+    }
+}
+
 /* header */
 header{
     width: 100vw;
@@ -163,6 +183,39 @@ header .pictures div{
     text-decoration: none;
     color: #79162F;
     background-color: #FFFFFF;
+}
+
+@media only screen and (max-width:480px){
+    .header-cont{
+        height: 50vh;
+    }
+    
+    .a-tag img{
+      display: none;
+    }
+
+    .header-cont{
+        margin-left: 15px;
+        padding-top: 10px;
+    }
+
+    .header-cont h1{
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 35px;
+        top: 5px;
+    }
+    
+    .header-cont p{
+        font-size: 10px;
+        font-weight: 500;
+        top: -70px;
+    }
+
+    .header-cont .a-tag{
+        font-size: 10px;
+        top: -100px;
+    }
 }
 
 /* section */
