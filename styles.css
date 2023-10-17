@@ -225,18 +225,65 @@ header .pictures div{
         display: none;
     }
 
-
 }
 
-/* section */
-section{
+/* first section */
+.sec-first{
     width: 100vw;
     height: 100vh;
     background-color: #EAD3C1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.sec-first .goals{
+    text-align: center;
+}
+
+.sec-first .goals h2{
+    font-size: 26px;
+    color: #BD8186;
+}
+
+.sec-first .goals h1{
+    font-size: 35px;
+}
+
+.sec-first .goals p{
+    font-size: 26px;
+    font-weight: 500;
+}
 @media only screen and (max-width:480px){
-    section{
-        display: none;
+    .sec-first{
+    width: 100vw;
+    height: 40vh;
     }
+}
+/* second section  */
+.sec-two{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(218, 137, 137, 0.918);
+}
+
+.sec-two .content-sec{
+    height: 60vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 25px 0 20px 0;
+    background-color: #FFFFFF;
+}
+
+.sec-two .content-sec .afford{
+    padding: 15px 0;
+    margin: 15px 0;
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
 }
