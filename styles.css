@@ -439,6 +439,7 @@ header .pictures div{
 .sec-six{
     width: 100vw;
     height: 75vh;
+    background-color: rgb(234, 211, 193);
 }
 
 .sec-six .business{
@@ -476,3 +477,67 @@ header .pictures div{
     font-size: 20px;
     font-weight: 500;
 } 
+
+/* sectioin seven */
+
+.sev-sec{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.content-sev .pic{
+    height: 40vh;
+    background-color: rgb(150, 140, 140);
+}
+
+.content-sev .pic img{
+    width: 370px;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+
+
+.content-sev .second-content{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.second-content h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #BD8186;
+}
+
+
+.second-content h1{
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 50px;
+}
+
+.second-content p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.second-content .first-p{
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.second-content .sec-p{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 20px 30px 20px 10px;
+    background-color: rgb(234, 211, 193);
+}
+
+.second-content .four-p, .five-p{
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
