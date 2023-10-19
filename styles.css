@@ -541,3 +541,98 @@ header .pictures div{
     margin-bottom: 20px;
     margin-left: 20px;
 }
+
+/* section eight */
+.sec-eight{
+    width: 100vw;
+    height: 50vh;
+    background-color: rgb(70, 67, 67);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.content-eight h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #BD8186;
+}
+
+.content-eight h1{
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+.content-eight p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.content-eight .par-reg, .par-branch{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.content-eight .par-reg{
+    padding: 5px;
+    background-color: #FFFFFF;
+}
+
+.content-eight .par-branch, .pas-by{ 
+    color: #EAD3C1;
+}
+
+.content-eight .pas-by span{
+    color: #FFFFFF;
+}
+
+/* section nine */
+.sec-nine{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(32, 114, 123, 0.91);
+    color: #FFFFFF;
+}
+
+.content-nine{
+    margin-left: 10px;
+
+}
+
+.content-nine .top-one h1{
+    margin-bottom: 10px;
+}
+
+.content-nine .top-one p a{
+    text-decoration: none;
+}
+
+.content-nine .bot-one .bot-two{
+    margin-top: 20px;
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-nine .bot-one .bot-two img{
+    width: 30px;
+    height: 40px;
+}
+
+.content-nine .bot-one{
+    display: block;
+    width: 400px;
+}
+
+
+.content-nine .bot-one .copy{
+    display: inline-block;
+    margin: 20px 70px;
+    text-align: center;
+}
