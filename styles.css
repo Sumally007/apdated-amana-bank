@@ -59,6 +59,23 @@ body{
     border-radius: 30px;
     margin-left: 10px;
 }
+@media only screen and (min-width: 1200px){
+    /* nav-bar */
+    .nav-bar h1{
+        position: absolute;
+        left: 150px;
+    }
+    .nav-bar .nav-links{
+        position: absolute;
+        right: 250px;
+    }
+    .nav-bar .nav-log{
+        position: absolute;
+        right: 70px;
+    }
+
+    
+}
 
 
 @media only screen and (max-width:480px){
@@ -189,7 +206,21 @@ header .pictures div{
     color: #79162F;
     background-color: #FFFFFF;
 }
+@media only screen and (min-width: 1200px){
+    .a-tag img{
+        width: 450px;
+        height: 300px;
+    }
 
+    header .floating-div{
+        left: 330px;
+    }
+
+    /* main header  */
+    .floating-div{
+        
+    }
+}
 @media only screen and (max-width:480px){
     .header-cont{
         height: 40vh;
@@ -255,6 +286,21 @@ header .pictures div{
     font-size: 26px;
     font-weight: 500;
 }
+
+@media only screen and (min-width: 1200px){
+    .sec-first .goals{
+    
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 30px;
+    }
+
+    .sec-first .goals p{
+        width: 50%;
+        align-self: center;
+    }
+}
 @media only screen and (max-width:480px){
     .sec-first{
     width: 100vw;
@@ -288,6 +334,28 @@ header .pictures div{
     margin: 15px 0;
     border-top: 2px dashed black;
     border-bottom: 2px dashed black;
+}
+
+@media only screen and (min-width: 1200px){
+    .sec-two .content-sec{
+        height: 50vh;
+        width: 60vw;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .sec-two .content-sec .afford{
+        padding: 0 30px;
+        margin: 15px 0;
+        border-left: 2px dashed black;
+        border-right: 2px dashed black;
+        border-top: none;
+        border-bottom: none;
+    }
+    .sec-two .content-sec span{
+        font-size: 28px;
+        font-weight: 700;
+    }
 }
 
 /* third section  */
@@ -338,7 +406,33 @@ header .pictures div{
     border: 2px solid #79162F;
 }
 
+@media only screen and (min-width: 1200px){
+    .third-sec{
+        width: 100vw;
+        height: 85vh;
+        border-bottom: 2px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: none;
+        border-right: none;
+    }
+    .third-sec .content-bank{
+        width: 95%;
+        height: 65vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 10px;
+    }
 
+    .third-sec .content-bank img{
+        width: 470px;
+        height: 340px;
+        margin-right: 20px;
+
+    }
+}
 
 /* fourth section  */
 .fourth-sec{
@@ -385,6 +479,33 @@ header .pictures div{
     width: 370px;
     margin-top: 60px;
     border: 2px solid #79162F;
+}
+
+@media only screen and (min-width: 1200px){
+    .fourth-sec{
+        width: 100vw;
+        height: 85vh;
+        border-bottom: 2px solid red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: none;
+        border-right: none;
+    }
+
+    .fourth-sec .content-pesa{
+        width: 95%;
+        height: 65vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .fourth-sec .content-pesa img{
+        width: 470px;
+        height: 340px;
+        margin-right: 20px;
+    }
 }
 
 /* fif section  */
@@ -434,16 +555,48 @@ header .pictures div{
     border: 2px solid #79162F;
 }
 
+@media only screen and (min-width: 1200px){
+    .five-sec{
+        width: 100vw;
+        height: 85vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-left: none;
+        border-right: none;
+    }
+
+    .five-sec .content-mobile{
+        width: 95%;
+        height: 65vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .five-sec .content-mobile img{
+        width: 470px;
+        height: 340px;
+        margin-right: 20px;
+    }
+}
+
 /* section six */
 
 .sec-six{
     width: 100vw;
-    height: 75vh;
+    height: 85vh;
     background-color: rgb(234, 211, 193);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .sec-six .business{
     margin-left: 20px;
+    
 }
 
 .sec-six .business h2{
@@ -477,6 +630,15 @@ header .pictures div{
     font-size: 20px;
     font-weight: 500;
 } 
+@media only screen and (min-width: 1200px){
+    .sec-six{
+        width: 100vw;
+        height: 100vh;
+    }
+    .sec-six .business h1{
+        width: 900px;
+    }
+}
 
 /* sectioin seven */
 
@@ -542,6 +704,35 @@ header .pictures div{
     margin-left: 20px;
 }
 
+@media only screen and (min-width: 1200px){
+    .sev-sec{
+        height: 80vh;
+    }
+
+    .sev-sec .content-sev{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .content-sev .pic{
+        flex-basis: 50%;
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-sev .pic img{
+        width: 670px;
+        height: 570px;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .content-sev .second-content{
+        flex-basis: 50%;
+    }
+}
+
 /* section eight */
 .sec-eight{
     width: 100vw;
@@ -589,7 +780,18 @@ header .pictures div{
 .content-eight .pas-by span{
     color: #FFFFFF;
 }
+@media only screen and (min-width: 1200px){
+    .sec-eight{
+        height: 70vh;
+    }
 
+    .content-eight .pas-by{
+        width: 500px;
+        text-align: center;
+        align-self: center;
+        margin-left: 200px;
+    }
+}
 /* section nine */
 .sec-nine{
     width: 100vw;
@@ -635,4 +837,45 @@ header .pictures div{
     display: inline-block;
     margin: 20px 70px;
     text-align: center;
+}
+
+@media only screen and (min-width:1200px){
+    .sec-nine{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .content-nine{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+    }
+    .content-nine .top-one{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+
+    }
+
+    .content-nine .top-one h1{
+        margin-bottom: 30px;
+        font-size: 48;
+    }
+    .content-nine .top-one p{
+        font-size: 20px;
+
+    }
+    .content-nine .top-one p a{
+        display: block;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+    
+
+    .content-nine .bot-one{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
 }
